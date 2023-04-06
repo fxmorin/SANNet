@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/core','src/utils']
+        }
+    }
+}
